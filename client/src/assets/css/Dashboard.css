@@ -1,0 +1,35 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+  width: 60%;
+}
+
+.dashboard h1 {
+  /* font-family: monospace; */
+  font-size: 55px;
+  color: rgb(175 8 8);
+}
+
+.blood-table th {
+  font-size: 30px;
+  font-family: monospace;
+  /* padding-left: 1em; */
+  /* padding-right: 1em; */
+  /* color: rgb(51, 17, 11); */
+}
+.blood-table td {
+  font-size: 20px;
+  font-family: monospace;
+  border: 2px solid white;
+  text-align: center;
+}
+.blood-table tr:hover {
+  font-size: 20px;
+  font-family: monospace;
+  border: 2px solid white;
+  text-align: center;
+  color: rgb(220, 118, 118);
+}
+
